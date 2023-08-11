@@ -1,0 +1,29 @@
+.heroSection {
+  width: 100%;
+  height: 55vh;
+}
+
+.heroSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroSection .heroText {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #121212;
+  text-align: center;
+  width: 100%;
+}
+
+.heroSection .heroText h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  background-color: #c0c0c0;
+  max-width: fit-content;
+  margin: 0 auto;
+  border-radius: .3em;
+}
