@@ -1,0 +1,10 @@
+.heroSection {
+  width: 100%;
+  height: 55vh;
+}
+
+.heroSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
