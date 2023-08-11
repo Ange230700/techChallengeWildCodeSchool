@@ -12,14 +12,19 @@ nav a img {
   margin-left: 10px;
 }
 
+nav a img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
 nav ul {
   list-style: none;
-  margin-right: 10%;
+  margin-right: 7vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-grow: 1;
-  gap: 10%;
+  gap: 6vw;
 }
 
 nav ul li a {
@@ -29,4 +34,9 @@ nav ul li a {
   font-weight: 500;
   padding: 10px;
   transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #86c4cc;
+  transform: scale(1.1);
 }
