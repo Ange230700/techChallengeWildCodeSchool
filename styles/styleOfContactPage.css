@@ -1,0 +1,81 @@
+p {
+  color: black;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+form {
+  height: calc(100vh - 19rem);
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  row-gap: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: 540;
+}
+
+input {
+  margin-inline: 2rem;
+  height: 2.5rem;
+  border: black 1px solid;
+}
+
+input::placeholder {
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+input:hover {
+  border: 3px solid black;
+  cursor: text;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid black;
+}
+
+textarea {
+  margin-inline: 2rem;
+}
+
+textarea:hover {
+  border: 3px solid black;
+  cursor: text;
+}
+
+textarea:focus {
+  outline: none;
+  border: 3px solid black;
+}
+
+textarea::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-top: 0.7rem;
+  padding-left: 0.5rem;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  margin-inline-start: auto;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.9rem;
+}
+
+input[type="submit"]:hover {
+  border: none;
+  cursor: none;
+  background-color: #333;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
