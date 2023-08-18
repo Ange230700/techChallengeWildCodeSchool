@@ -1,0 +1,51 @@
+table {
+  width: calc(100% - 4rem);
+  height: calc(100vh - 16rem);
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+thead {
+  width: calc(100% - 4rem);
+  height: 4rem;
+  margin: auto;
+}
+
+tbody {
+  width: calc(100% - 4rem);
+  height: calc(100vh - 20rem);
+  margin: auto;
+}
+
+tr {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+}
+
+table thead tr{
+  background-color: hsl(0, 1%, 67%);
+}
+
+table tbody tr:nth-child(odd){
+  background-color: hsl(98, 14%, 84%);
+}
