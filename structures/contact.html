@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <script src="/DOMhandling/head.js"></script>
     <title>Contact the Royal Kingdom</title>
   </head>
@@ -9,24 +10,22 @@
       <script src="../DOMhandling/headerAndNav.js"></script>
       <h2>Contact the Royal Kingdom</h2>
       <p>Fill in the form below to contact the Royal Kingdom</p>
-      <form action="">
-        <label for="name" class="form__labels">Name</label>
+      <form>
+        <label for="name">Name</label>
         <input
           type="text"
           id="name"
           name="name"
           placeholder="Enter your name"
-          class="form__inputs"
         />
-        <label for="email" class="form__labels">Email</label>
+        <label for="email">Email</label>
         <input
           type="text"
           id="email"
           name="email"
           placeholder="Enter your email"
-          class="form__inputs"
         />
-        <label for="message" class="form__labels">Message</label>
+        <label for="message">Message</label>
         <textarea
           name="message"
           id="message"
@@ -34,7 +33,12 @@
           rows="10"
           placeholder="Enter your message"
         ></textarea>
-        <input type="submit" id="submit" value="Submit" />
+        <input
+          type="submit"
+          id="submit"
+          value="Submit"
+          onclick="alert('Thank you for message!')"
+        />
       </form>
     </div>
   </body>
