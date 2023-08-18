@@ -1,8 +1,9 @@
 nav {
-  height: 70px;
+  height: auto;
   background-color: #333;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 nav a img {
@@ -25,12 +26,13 @@ nav ul {
   justify-content: flex-end;
   flex-grow: 1;
   gap: 6vw;
+  flex-wrap: wrap;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   padding: 10px;
   transition: all 0.3s ease-in-out;
