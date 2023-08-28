@@ -5,7 +5,7 @@ function createScriptTag() {
 }
 
 function setSourceAttribute(scriptTag) {
-    scriptTag.src = '/createMetadataTagForSetOfCharacters.js';
+    scriptTag.src = '';
 }
 
 function setTypeAttribute(scriptTag) {
