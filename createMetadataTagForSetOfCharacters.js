@@ -1,2 +1,1 @@
-let contentOfHeadTag = document.head.innerHTML;
-contentOfHeadTag += `<meta charset='UTF-8'>`;
+document.getElementsByTagName('h2')[0].innerHTML = 'This is the new title of the page';
