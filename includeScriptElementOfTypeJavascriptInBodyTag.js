@@ -7,4 +7,4 @@ function includeScriptElementOfTypeJavascriptInBodyTag(filePath) {
     document.body.innerHTML += scriptElement.outerHTML;
 }
 
-includeScriptElementOfTypeJavascriptInBodyTag('/script1.js');
+includeScriptElementOfTypeJavascriptInBodyTag('/navigationBar.js');
