@@ -1,0 +1,38 @@
+/* === CSS VARIABLES === */
+:root {
+  /* COLORS */
+  --body-background-color: hsl(0, 0%, 96%);
+  --navigation-bar-background-color: hsl(0, 0%, 20%);
+  --navigation-items-text-color: hsl(0, 0%, 100%);
+  --color-of-html-anchors-when-hovering: hsl(187, 41%, 66%);
+  --color-of-hero-section-text: hsl(0, 0%, 7%);
+  --hero-section-heading-color: hsl(0, 0%, 75%);
+  --table-head-rows-color: hsl(0, 1%, 67%);
+  --table-body-odd-rows-color: hsl(98, 14%, 84%);
+  --paragraph-text-color: hsl(0, 0%, 0%);
+  --input-border-color: hsl(0, 0%, 0%);
+  --submit-button-background-color: hsl(0, 0%, 0%);
+  --submit-button-background-color-when-hovering: hsl(0, 0%, 20%);
+  --submit-button-text-color: hsl(0, 0%, 100%);
+
+  /* FONT AND TYPOGRAPHY */
+  --root-element-font-size: 100%;
+  --body-font-size: 1rem;
+  --html-anchors-font-size: 1.5rem;
+  --hero-section-heading-font-size: 2.5rem;
+  --about-section-heading-font-size: 2.5rem;
+  --about-section-paragraph-font-size: 1.5rem;
+  --royal-family-heading-font-size: 2.5rem;
+  --royal-family-figcaption-font-size: 1.5rem;
+  --form-labels-font-size: 1.5rem;
+  --form-inputs-placeholders-font-size: 1rem;
+  --form-textarea-placeholder-font-size: 1rem;
+
+  --html-anchors-font-weight: 500;
+  --form-labels-font-weight: 500;
+  --hero-section-heading-font-weight: 700;
+
+  --body-font-family: "Segoe UI", sans-serif;
+
+  --body-line-height: 1.5;
+}

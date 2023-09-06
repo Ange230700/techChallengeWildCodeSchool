@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--root-element-font-size);
+}
+
+body {
+  background-color: var(--body-background-color);
+  font-size: var(--body-font-size);
+  font-family: var(--body-font-family);
+  line-height: var(--body-line-height);
+}

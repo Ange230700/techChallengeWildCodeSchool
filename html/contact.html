@@ -7,10 +7,40 @@
       async
     ></script>
 
-    <link rel="stylesheet" href="listOfStylesApplied.css" type="text/css" />
+    <link rel="stylesheet" href="../listOfStylesApplied.css" type="text/css" />
   </head>
   <body>
     <header id="navigationBar"></header>
+
+    <div>
+      <h2>Contact the Royal Kingdom</h2>
+      <p>Fill in the form below to contact the Royal Kingdom</p>
+      <form action="">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Enter your message"
+        ></textarea>
+        <input type="submit" id="submit" value="Submit" onclick="" />
+      </form>
+    </div>
 
     <script
       src="/listOfScriptsForDOMmanipulationOfBody.js"

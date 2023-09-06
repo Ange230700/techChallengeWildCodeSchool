@@ -1,7 +1,7 @@
 function firstHTMLpartOfNavigationBar() {
     return `
         <nav>
-            <img src="" alt="logo" />
+            <img src="../images/logo.png" alt="logo" />
             <ul>
     `;
 }
