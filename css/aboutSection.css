@@ -1,0 +1,15 @@
+.aboutTheKingdom {
+  width: 90vw;
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+
+.aboutTheKingdom h2 {
+  font-size: var(--about-section-heading-font-size);
+  /* margin-top: -2rem; */
+}
+
+.aboutTheKingdom p {
+  font-size: var(--about-section-paragraph-font-size);
+  line-height: var(--body-line-height);
+}

@@ -1,0 +1,29 @@
+.heroSection {
+  width: 100%;
+  height: 55vh;
+}
+
+.heroSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroSection .heroText {
+  position: relative;
+  top: -60%;
+  color: var(--color-of-hero-section-text);
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+
+.heroSection .heroText h1 {
+  font-size: var(--hero-section-heading-font-size);
+  font-weight: var(--hero-section-heading-font-weight);
+  background-color: var(--hero-section-heading-background-color);
+  max-width: fit-content;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  flex-shrink: 1;
+}
